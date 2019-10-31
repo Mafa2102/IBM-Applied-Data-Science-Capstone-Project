@@ -1,0 +1,1422 @@
+
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_92922a45cb35405dbfdb9ed5ad833786 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_92922a45cb35405dbfdb9ed5ad833786" ></div>
+        
+</body>
+<script>    
+    
+            var map_92922a45cb35405dbfdb9ed5ad833786 = L.map(
+                "map_92922a45cb35405dbfdb9ed5ad833786",
+                {
+                    center: [37.7749, -122.4194],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_928980ad17704cb595948a9ce9e68e5c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+            var marker_d56e8a7f4aff40ccbcff5c286aa511df = L.marker(
+                [37.73431000000005, -122.37942999999996],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_eea9d46712084cdf835d6864d796ed44 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_a32fd5057f0e482a8217513a7073f90a = $(`<div id="html_a32fd5057f0e482a8217513a7073f90a" style="width: 100.0%; height: 100.0%;"><b>Bayview Hunters Point</b><br>Population: 37600<br><br>Race (%):<ul> <li>Asian: 36.0</li><li>Black/African American: 28.0</li><li>White: 14.0</li><li>Native American Indian: 0.3</li><li>Native Hawaiian/Pacific Islander: 2.0</li><li>Other/Two or More Races: 19.0</li><li>% Latino (of Any Race): 22.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Southern / Soul Food Restaurant: 4</li><li>Restaurant: 3</li><li>Mexican Restaurant: 3</li><li>Deli / Bodega: 2</li><li>Food: 2</li></ol></div>`)[0];
+            popup_eea9d46712084cdf835d6864d796ed44.setContent(html_a32fd5057f0e482a8217513a7073f90a);
+        
+
+        marker_d56e8a7f4aff40ccbcff5c286aa511df.bindPopup(popup_eea9d46712084cdf835d6864d796ed44)
+        ;
+
+        
+    
+    
+            marker_d56e8a7f4aff40ccbcff5c286aa511df.bindTooltip(
+                `<div>
+                     <b>Bayview Hunters Point</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b059a4a5cc0f4f3080b7a2dcaff491dd = L.marker(
+                [37.73903000000007, -122.41620999999998],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_e4c2406029db4a8a90dca35ae745585f = L.popup({"maxWidth": "300px"});
+
+        
+            var html_c091717970cb4db28e8c547887c02d11 = $(`<div id="html_c091717970cb4db28e8c547887c02d11" style="width: 100.0%; height: 100.0%;"><b>Bernal Heights</b><br>Population: 26140<br><br>Race (%):<ul> <li>Asian: 17.0</li><li>Black/African American: 5.0</li><li>White: 57.0</li><li>Native American Indian: 1.0</li><li>Native Hawaiian/Pacific Islander: 0.1</li><li>Other/Two or More Races: 21.0</li><li>% Latino (of Any Race): 29.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Mexican Restaurant: 14</li><li>Italian Restaurant: 7</li><li>Café: 7</li><li>Bakery: 6</li><li>Indian Restaurant: 4</li></ol></div>`)[0];
+            popup_e4c2406029db4a8a90dca35ae745585f.setContent(html_c091717970cb4db28e8c547887c02d11);
+        
+
+        marker_b059a4a5cc0f4f3080b7a2dcaff491dd.bindPopup(popup_e4c2406029db4a8a90dca35ae745585f)
+        ;
+
+        
+    
+    
+            marker_b059a4a5cc0f4f3080b7a2dcaff491dd.bindTooltip(
+                `<div>
+                     <b>Bernal Heights</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d5fe7f7346c42c397c8f7c60953994b = L.marker(
+                [37.76122000000004, -122.44410999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_5e3dc5ba681445cc921dc33f50192449 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_c7fdfc46b45346b09e5a8c08cb1f1f6f = $(`<div id="html_c7fdfc46b45346b09e5a8c08cb1f1f6f" style="width: 100.0%; height: 100.0%;"><b>Castro/Upper Market</b><br>Population: 21090<br><br>Race (%):<ul> <li>Asian: 12.0</li><li>Black/African American: 3.0</li><li>White: 78.0</li><li>Native American Indian: 0.4</li><li>Native Hawaiian/Pacific Islander: 0.4</li><li>Other/Two or More Races: 7.0</li><li>% Latino (of Any Race): 8.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 7</li><li>Breakfast Spot: 7</li><li>Pizza Place: 7</li><li>Thai Restaurant: 6</li><li>Mexican Restaurant: 5</li></ol></div>`)[0];
+            popup_5e3dc5ba681445cc921dc33f50192449.setContent(html_c7fdfc46b45346b09e5a8c08cb1f1f6f);
+        
+
+        marker_9d5fe7f7346c42c397c8f7c60953994b.bindPopup(popup_5e3dc5ba681445cc921dc33f50192449)
+        ;
+
+        
+    
+    
+            marker_9d5fe7f7346c42c397c8f7c60953994b.bindTooltip(
+                `<div>
+                     <b>Castro/Upper Market</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f4d4cba4d574a4494c356a38847458d = L.marker(
+                [37.795390000000054, -122.40811999999994],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_7c7e5d96b0804a918b0667f85a9ce6b4 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_a1493c991fdc4c23b17246bdeb569256 = $(`<div id="html_a1493c991fdc4c23b17246bdeb569256" style="width: 100.0%; height: 100.0%;"><b>Chinatown</b><br>Population: 14820<br><br>Race (%):<ul> <li>Asian: 81.0</li><li>Black/African American: 1.0</li><li>White: 14.0</li><li>Native American Indian: 0.4</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 4.0</li><li>% Latino (of Any Race): 4.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 10</li><li>Café: 7</li><li>New American Restaurant: 6</li><li>Chinese Restaurant: 6</li><li>Pizza Place: 6</li></ol></div>`)[0];
+            popup_7c7e5d96b0804a918b0667f85a9ce6b4.setContent(html_a1493c991fdc4c23b17246bdeb569256);
+        
+
+        marker_0f4d4cba4d574a4494c356a38847458d.bindPopup(popup_7c7e5d96b0804a918b0667f85a9ce6b4)
+        ;
+
+        
+    
+    
+            marker_0f4d4cba4d574a4494c356a38847458d.bindTooltip(
+                `<div>
+                     <b>Chinatown</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d70537af050b457cab7b3a0f6aca5681 = L.marker(
+                [37.72104000000007, -122.43159999999995],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_baa020e2cf3a42aeaaa264b2ec57bdaf = L.popup({"maxWidth": "300px"});
+
+        
+            var html_8a53cb2a98894ea8afad36c0045baaed = $(`<div id="html_8a53cb2a98894ea8afad36c0045baaed" style="width: 100.0%; height: 100.0%;"><b>Excelsior</b><br>Population: 39340<br><br>Race (%):<ul> <li>Asian: 48.0</li><li>Black/African American: 2.0</li><li>White: 28.0</li><li>Native American Indian: 1.0</li><li>Native Hawaiian/Pacific Islander: 0.4</li><li>Other/Two or More Races: 20.0</li><li>% Latino (of Any Race): 33.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Mexican Restaurant: 8</li><li>Pizza Place: 5</li><li>Sandwich Place: 4</li><li>Latin American Restaurant: 4</li><li>Bakery: 3</li></ol></div>`)[0];
+            popup_baa020e2cf3a42aeaaa264b2ec57bdaf.setContent(html_8a53cb2a98894ea8afad36c0045baaed);
+        
+
+        marker_d70537af050b457cab7b3a0f6aca5681.bindPopup(popup_baa020e2cf3a42aeaaa264b2ec57bdaf)
+        ;
+
+        
+    
+    
+            marker_d70537af050b457cab7b3a0f6aca5681.bindTooltip(
+                `<div>
+                     <b>Excelsior</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd8ac471bc864e14ba64135584040595 = L.marker(
+                [37.795780000000036, -122.40047999999996],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_fa3fdd2c07ca48aba65803d55e8af80a = L.popup({"maxWidth": "300px"});
+
+        
+            var html_17de3c5de2824b259e777ca5c5428e77 = $(`<div id="html_17de3c5de2824b259e777ca5c5428e77" style="width: 100.0%; height: 100.0%;"><b>Financial District/South Beach</b><br>Population: 17460<br><br>Race (%):<ul> <li>Asian: 36.0</li><li>Black/African American: 2.0</li><li>White: 54.0</li><li>Native American Indian: 0.2</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 8.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Food Truck: 6</li><li>New American Restaurant: 6</li><li>Café: 6</li><li>Chinese Restaurant: 6</li><li>Italian Restaurant: 5</li></ol></div>`)[0];
+            popup_fa3fdd2c07ca48aba65803d55e8af80a.setContent(html_17de3c5de2824b259e777ca5c5428e77);
+        
+
+        marker_fd8ac471bc864e14ba64135584040595.bindPopup(popup_fa3fdd2c07ca48aba65803d55e8af80a)
+        ;
+
+        
+    
+    
+            marker_fd8ac471bc864e14ba64135584040595.bindTooltip(
+                `<div>
+                     <b>Financial District/South Beach</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99c4ac97e52b481789f10340e2b34919 = L.marker(
+                [37.738410000000044, -122.43098999999995],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_71033981d3b64e00881d48c4bb9fc443 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_5c8515f31df24db3a561b13aecae0849 = $(`<div id="html_5c8515f31df24db3a561b13aecae0849" style="width: 100.0%; height: 100.0%;"><b>Glen Park</b><br>Population: 8210<br><br>Race (%):<ul> <li>Asian: 15.0</li><li>Black/African American: 6.0</li><li>White: 70.0</li><li>Native American Indian: 0.3</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 9.0</li><li>% Latino (of Any Race): 13.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 8</li><li>Bakery: 7</li><li>Mexican Restaurant: 7</li><li>Breakfast Spot: 7</li><li>Café: 6</li></ol></div>`)[0];
+            popup_71033981d3b64e00881d48c4bb9fc443.setContent(html_5c8515f31df24db3a561b13aecae0849);
+        
+
+        marker_99c4ac97e52b481789f10340e2b34919.bindPopup(popup_71033981d3b64e00881d48c4bb9fc443)
+        ;
+
+        
+    
+    
+            marker_99c4ac97e52b481789f10340e2b34919.bindTooltip(
+                `<div>
+                     <b>Glen Park</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2120849358584d4193445646446b7600 = L.marker(
+                [37.77144000000004, -122.45414],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_3157c57b1d8240178ed8a0190e1bf16a = L.popup({"maxWidth": "300px"});
+
+        
+            var html_04c908fe0e6346aa8ed8d1612c7d49bb = $(`<div id="html_04c908fe0e6346aa8ed8d1612c7d49bb" style="width: 100.0%; height: 100.0%;"><b>Golden Gate Park</b><br>Population: 90<br><br>Race (%):<ul> <li>Asian: 0.0</li><li>Black/African American: 0.0</li><li>White: 94.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 6.0</li><li>% Latino (of Any Race): 0.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Breakfast Spot: 6</li><li>Bakery: 6</li><li>Sushi Restaurant: 6</li><li>Pizza Place: 6</li><li>Café: 5</li></ol></div>`)[0];
+            popup_3157c57b1d8240178ed8a0190e1bf16a.setContent(html_04c908fe0e6346aa8ed8d1612c7d49bb);
+        
+
+        marker_2120849358584d4193445646446b7600.bindPopup(popup_3157c57b1d8240178ed8a0190e1bf16a)
+        ;
+
+        
+    
+    
+            marker_2120849358584d4193445646446b7600.bindTooltip(
+                `<div>
+                     <b>Golden Gate Park</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f3855ca0f5d4da59d0c6c14dc0111e0 = L.marker(
+                [37.769930000000045, -122.44691999999998],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_5ccb6ef7417a43b7b10737aa89bebbe1 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_5334c9b3ef0e4661ad31aedc6d1cd022 = $(`<div id="html_5334c9b3ef0e4661ad31aedc6d1cd022" style="width: 100.0%; height: 100.0%;"><b>Haight Ashbury</b><br>Population: 18050<br><br>Race (%):<ul> <li>Asian: 9.0</li><li>Black/African American: 3.0</li><li>White: 80.0</li><li>Native American Indian: 0.3</li><li>Native Hawaiian/Pacific Islander: 0.1</li><li>Other/Two or More Races: 8.0</li><li>% Latino (of Any Race): 8.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 7</li><li>Pizza Place: 6</li><li>Sushi Restaurant: 6</li><li>Mexican Restaurant: 6</li><li>Thai Restaurant: 5</li></ol></div>`)[0];
+            popup_5ccb6ef7417a43b7b10737aa89bebbe1.setContent(html_5334c9b3ef0e4661ad31aedc6d1cd022);
+        
+
+        marker_5f3855ca0f5d4da59d0c6c14dc0111e0.bindPopup(popup_5ccb6ef7417a43b7b10737aa89bebbe1)
+        ;
+
+        
+    
+    
+            marker_5f3855ca0f5d4da59d0c6c14dc0111e0.bindTooltip(
+                `<div>
+                     <b>Haight Ashbury</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9724b7812bee41a3ad0acc811418f2ef = L.marker(
+                [37.77428000000003, -122.42832999999996],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_d382a1e5400547529ca0adb675ae0d1f = L.popup({"maxWidth": "300px"});
+
+        
+            var html_afafcf18b4a648a2ad8457ea46059cb9 = $(`<div id="html_afafcf18b4a648a2ad8457ea46059cb9" style="width: 100.0%; height: 100.0%;"><b>Hayes Valley</b><br>Population: 18250<br><br>Race (%):<ul> <li>Asian: 14.0</li><li>Black/African American: 9.0</li><li>White: 67.0</li><li>Native American Indian: 0.5</li><li>Native Hawaiian/Pacific Islander: 0.1</li><li>Other/Two or More Races: 9.0</li><li>% Latino (of Any Race): 11.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Sushi Restaurant: 10</li><li>Bakery: 7</li><li>Pizza Place: 7</li><li>New American Restaurant: 6</li><li>Mexican Restaurant: 6</li></ol></div>`)[0];
+            popup_d382a1e5400547529ca0adb675ae0d1f.setContent(html_afafcf18b4a648a2ad8457ea46059cb9);
+        
+
+        marker_9724b7812bee41a3ad0acc811418f2ef.bindPopup(popup_d382a1e5400547529ca0adb675ae0d1f)
+        ;
+
+        
+    
+    
+            marker_9724b7812bee41a3ad0acc811418f2ef.bindTooltip(
+                `<div>
+                     <b>Hayes Valley</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a45b9405a69040dca43d065c325d5ccf = L.marker(
+                [37.78090000000003, -122.46555999999998],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_5badc3e86c924250bad685b620b28a75 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_4ec6b8f4ee0244ada5bd205b89baae56 = $(`<div id="html_4ec6b8f4ee0244ada5bd205b89baae56" style="width: 100.0%; height: 100.0%;"><b>Inner Richmond</b><br>Population: 22500<br><br>Race (%):<ul> <li>Asian: 36.0</li><li>Black/African American: 2.0</li><li>White: 54.0</li><li>Native American Indian: 0.1</li><li>Native Hawaiian/Pacific Islander: 0.4</li><li>Other/Two or More Races: 8.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 9</li><li>Bakery: 8</li><li>Chinese Restaurant: 6</li><li>Japanese Restaurant: 5</li><li>Sushi Restaurant: 5</li></ol></div>`)[0];
+            popup_5badc3e86c924250bad685b620b28a75.setContent(html_4ec6b8f4ee0244ada5bd205b89baae56);
+        
+
+        marker_a45b9405a69040dca43d065c325d5ccf.bindPopup(popup_5badc3e86c924250bad685b620b28a75)
+        ;
+
+        
+    
+    
+            marker_a45b9405a69040dca43d065c325d5ccf.bindTooltip(
+                `<div>
+                     <b>Inner Richmond</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8bf570366d54867b6adb6f8d502ee53 = L.marker(
+                [37.762110000000064, -122.46885999999995],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_d59b093ce88345a49d07801321bb48be = L.popup({"maxWidth": "300px"});
+
+        
+            var html_be964e815ff14881af6b2a7f57d39d3e = $(`<div id="html_be964e815ff14881af6b2a7f57d39d3e" style="width: 100.0%; height: 100.0%;"><b>Inner Sunset</b><br>Population: 29120<br><br>Race (%):<ul> <li>Asian: 33.0</li><li>Black/African American: 2.0</li><li>White: 56.0</li><li>Native American Indian: 0.2</li><li>Native Hawaiian/Pacific Islander: 0.1</li><li>Other/Two or More Races: 9.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Chinese Restaurant: 9</li><li>Bakery: 8</li><li>Vietnamese Restaurant: 7</li><li>Thai Restaurant: 7</li><li>Pizza Place: 5</li></ol></div>`)[0];
+            popup_d59b093ce88345a49d07801321bb48be.setContent(html_be964e815ff14881af6b2a7f57d39d3e);
+        
+
+        marker_a8bf570366d54867b6adb6f8d502ee53.bindPopup(popup_d59b093ce88345a49d07801321bb48be)
+        ;
+
+        
+    
+    
+            marker_a8bf570366d54867b6adb6f8d502ee53.bindTooltip(
+                `<div>
+                     <b>Inner Sunset</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53b1e18c662d455b8e3bd2559d35653f = L.marker(
+                [37.785420000000045, -122.42971999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_430d5854762b4cd48831c18e5dccfff9 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_320f11e5376d48e08ef60205020ab921 = $(`<div id="html_320f11e5376d48e08ef60205020ab921" style="width: 100.0%; height: 100.0%;"><b>Japantown</b><br>Population: 3650<br><br>Race (%):<ul> <li>Asian: 35.0</li><li>Black/African American: 3.0</li><li>White: 57.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 5.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Sushi Restaurant: 9</li><li>Bakery: 7</li><li>Vietnamese Restaurant: 6</li><li>Sandwich Place: 6</li><li>Italian Restaurant: 5</li></ol></div>`)[0];
+            popup_430d5854762b4cd48831c18e5dccfff9.setContent(html_320f11e5376d48e08ef60205020ab921);
+        
+
+        marker_53b1e18c662d455b8e3bd2559d35653f.bindPopup(popup_430d5854762b4cd48831c18e5dccfff9)
+        ;
+
+        
+    
+    
+            marker_53b1e18c662d455b8e3bd2559d35653f.bindTooltip(
+                `<div>
+                     <b>Japantown</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53d581332d7b4d5f92182084a24cdeca = L.marker(
+                [37.729850000000056, -122.49416999999994],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_fb822d0619a64a57b3448f15118cdaf1 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_3e5e01419f364252a4b034d994625d6e = $(`<div id="html_3e5e01419f364252a4b034d994625d6e" style="width: 100.0%; height: 100.0%;"><b>Lakeshore</b><br>Population: 14300<br><br>Race (%):<ul> <li>Asian: 30.0</li><li>Black/African American: 6.0</li><li>White: 46.0</li><li>Native American Indian: 0.2</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 17.0</li><li>% Latino (of Any Race): 19.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Pizza Place: 7</li><li>Bakery: 7</li><li>Sandwich Place: 6</li><li>Food Truck: 6</li><li>Chinese Restaurant: 6</li></ol></div>`)[0];
+            popup_fb822d0619a64a57b3448f15118cdaf1.setContent(html_3e5e01419f364252a4b034d994625d6e);
+        
+
+        marker_53d581332d7b4d5f92182084a24cdeca.bindPopup(popup_fb822d0619a64a57b3448f15118cdaf1)
+        ;
+
+        
+    
+    
+            marker_53d581332d7b4d5f92182084a24cdeca.bindTooltip(
+                `<div>
+                     <b>Lakeshore</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ded0a0ca3b774bb8a4ba6240d79ff7dd = L.marker(
+                [37.78159000000005, -122.49440999999996],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_8882253b04df4530a565093745abb831 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_5f226722f9f74b2dae61f87b9d3b6307 = $(`<div id="html_5f226722f9f74b2dae61f87b9d3b6307" style="width: 100.0%; height: 100.0%;"><b>Lincoln Park</b><br>Population: 320<br><br>Race (%):<ul> <li>Asian: 27.0</li><li>Black/African American: 10.0</li><li>White: 56.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 7.0</li><li>% Latino (of Any Race): 5.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 12</li><li>Chinese Restaurant: 12</li><li>Bakery: 4</li><li>Vietnamese Restaurant: 4</li><li>Sushi Restaurant: 4</li></ol></div>`)[0];
+            popup_8882253b04df4530a565093745abb831.setContent(html_5f226722f9f74b2dae61f87b9d3b6307);
+        
+
+        marker_ded0a0ca3b774bb8a4ba6240d79ff7dd.bindPopup(popup_8882253b04df4530a565093745abb831)
+        ;
+
+        
+    
+    
+            marker_ded0a0ca3b774bb8a4ba6240d79ff7dd.bindTooltip(
+                `<div>
+                     <b>Lincoln Park</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a58197c29942429c8bb0265894619b9b = L.marker(
+                [37.77791000000008, -122.45261999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_7903c93af05f464ea362211ce3af4e0e = L.popup({"maxWidth": "300px"});
+
+        
+            var html_b80db939378148dcbfb275d6a59a0955 = $(`<div id="html_b80db939378148dcbfb275d6a59a0955" style="width: 100.0%; height: 100.0%;"><b>Lone Mountain/USF</b><br>Population: 18070<br><br>Race (%):<ul> <li>Asian: 22.0</li><li>Black/African American: 6.0</li><li>White: 62.0</li><li>Native American Indian: 0.1</li><li>Native Hawaiian/Pacific Islander: 1.0</li><li>Other/Two or More Races: 9.0</li><li>% Latino (of Any Race): 12.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 7</li><li>Pizza Place: 6</li><li>Breakfast Spot: 5</li><li>Bakery: 5</li><li>Thai Restaurant: 5</li></ol></div>`)[0];
+            popup_7903c93af05f464ea362211ce3af4e0e.setContent(html_b80db939378148dcbfb275d6a59a0955);
+        
+
+        marker_a58197c29942429c8bb0265894619b9b.bindPopup(popup_7903c93af05f464ea362211ce3af4e0e)
+        ;
+
+        
+    
+    
+            marker_a58197c29942429c8bb0265894619b9b.bindTooltip(
+                `<div>
+                     <b>Lone Mountain/USF</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_153d7a2aa77e4f48a3752e094cca71b2 = L.marker(
+                [37.80337000000003, -122.43692999999996],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_296bcc878bb44277ad1885eb6c106a5a = L.popup({"maxWidth": "300px"});
+
+        
+            var html_c162321baebb4b40a54c704bf5af33e6 = $(`<div id="html_c162321baebb4b40a54c704bf5af33e6" style="width: 100.0%; height: 100.0%;"><b>Marina</b><br>Population: 25110<br><br>Race (%):<ul> <li>Asian: 10.0</li><li>Black/African American: 1.0</li><li>White: 83.0</li><li>Native American Indian: 0.2</li><li>Native Hawaiian/Pacific Islander: 0.1</li><li>Other/Two or More Races: 5.0</li><li>% Latino (of Any Race): 7.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 11</li><li>French Restaurant: 7</li><li>American Restaurant: 6</li><li>Sandwich Place: 5</li><li>Deli / Bodega: 5</li></ol></div>`)[0];
+            popup_296bcc878bb44277ad1885eb6c106a5a.setContent(html_c162321baebb4b40a54c704bf5af33e6);
+        
+
+        marker_153d7a2aa77e4f48a3752e094cca71b2.bindPopup(popup_296bcc878bb44277ad1885eb6c106a5a)
+        ;
+
+        
+    
+    
+            marker_153d7a2aa77e4f48a3752e094cca71b2.bindTooltip(
+                `<div>
+                     <b>Marina</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfc644b851c548c7aaec009e4895bbd6 = L.marker(
+                [37.78626956913233, -122.48924763662629],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_5f8fca679bb44790a4e1b3876724c059 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_670da36382bb4100adbf55deac04c4e1 = $(`<div id="html_670da36382bb4100adbf55deac04c4e1" style="width: 100.0%; height: 100.0%;"><b>McLaren Park</b><br>Population: 850<br><br>Race (%):<ul> <li>Asian: 48.0</li><li>Black/African American: 22.0</li><li>White: 6.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 13.0</li><li>Other/Two or More Races: 11.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 13</li><li>Chinese Restaurant: 11</li><li>Sushi Restaurant: 5</li><li>Bakery: 5</li><li>Pizza Place: 5</li></ol></div>`)[0];
+            popup_5f8fca679bb44790a4e1b3876724c059.setContent(html_670da36382bb4100adbf55deac04c4e1);
+        
+
+        marker_cfc644b851c548c7aaec009e4895bbd6.bindPopup(popup_5f8fca679bb44790a4e1b3876724c059)
+        ;
+
+        
+    
+    
+            marker_cfc644b851c548c7aaec009e4895bbd6.bindTooltip(
+                `<div>
+                     <b>McLaren Park</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a66e5a6fd37c4b5981412fa8f3fc7bcb = L.marker(
+                [37.763540000000035, -122.41757999999999],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_2d7b442bbffe4d1f8f478017c96d2e15 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_1fae2c4f297d4941b5dc706fecf335d6 = $(`<div id="html_1fae2c4f297d4941b5dc706fecf335d6" style="width: 100.0%; height: 100.0%;"><b>Mission</b><br>Population: 58640<br><br>Race (%):<ul> <li>Asian: 14.0</li><li>Black/African American: 3.0</li><li>White: 57.0</li><li>Native American Indian: 1.0</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 25.0</li><li>% Latino (of Any Race): 39.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Mexican Restaurant: 11</li><li>New American Restaurant: 7</li><li>Pizza Place: 7</li><li>Café: 6</li><li>Deli / Bodega: 5</li></ol></div>`)[0];
+            popup_2d7b442bbffe4d1f8f478017c96d2e15.setContent(html_1fae2c4f297d4941b5dc706fecf335d6);
+        
+
+        marker_a66e5a6fd37c4b5981412fa8f3fc7bcb.bindPopup(popup_2d7b442bbffe4d1f8f478017c96d2e15)
+        ;
+
+        
+    
+    
+            marker_a66e5a6fd37c4b5981412fa8f3fc7bcb.bindTooltip(
+                `<div>
+                     <b>Mission</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_579ea6d548c746da9f4dc0a315598836 = L.marker(
+                [37.76690000000008, -122.38978999999995],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_ca7deb1858dd4d93b06a3b18ae1f50ca = L.popup({"maxWidth": "300px"});
+
+        
+            var html_c47cfb3af98a440f904cd6c3ddc5962f = $(`<div id="html_c47cfb3af98a440f904cd6c3ddc5962f" style="width: 100.0%; height: 100.0%;"><b>Mission Bay</b><br>Population: 10530<br><br>Race (%):<ul> <li>Asian: 41.0</li><li>Black/African American: 7.0</li><li>White: 42.0</li><li>Native American Indian: 1.0</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 10.0</li><li>% Latino (of Any Race): 12.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 11</li><li>American Restaurant: 7</li><li>Food Truck: 6</li><li>Pizza Place: 6</li><li>Burger Joint: 6</li></ol></div>`)[0];
+            popup_ca7deb1858dd4d93b06a3b18ae1f50ca.setContent(html_c47cfb3af98a440f904cd6c3ddc5962f);
+        
+
+        marker_579ea6d548c746da9f4dc0a315598836.bindPopup(popup_ca7deb1858dd4d93b06a3b18ae1f50ca)
+        ;
+
+        
+    
+    
+            marker_579ea6d548c746da9f4dc0a315598836.bindTooltip(
+                `<div>
+                     <b>Mission Bay</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37c764e40aee4cddb36d94ad51539f10 = L.marker(
+                [37.793360000000064, -122.41787],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_2ba3a666e3df406ea23115e8771c6599 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_b2ea0e9b9c1f42dd8d8561fa91dcb13e = $(`<div id="html_b2ea0e9b9c1f42dd8d8561fa91dcb13e" style="width: 100.0%; height: 100.0%;"><b>Nob Hill</b><br>Population: 22300<br><br>Race (%):<ul> <li>Asian: 34.0</li><li>Black/African American: 3.0</li><li>White: 55.0</li><li>Native American Indian: 0.1</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 8.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 10</li><li>Pizza Place: 8</li><li>Sushi Restaurant: 6</li><li>Deli / Bodega: 5</li><li>Vietnamese Restaurant: 5</li></ol></div>`)[0];
+            popup_2ba3a666e3df406ea23115e8771c6599.setContent(html_b2ea0e9b9c1f42dd8d8561fa91dcb13e);
+        
+
+        marker_37c764e40aee4cddb36d94ad51539f10.bindPopup(popup_2ba3a666e3df406ea23115e8771c6599)
+        ;
+
+        
+    
+    
+            marker_37c764e40aee4cddb36d94ad51539f10.bindTooltip(
+                `<div>
+                     <b>Nob Hill</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7888420a0ab94824b1afa27d5f266421 = L.marker(
+                [37.75160000000005, -122.42907999999994],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_219172c669a2471ea91375fbc2fa092f = L.popup({"maxWidth": "300px"});
+
+        
+            var html_9997fcaf742c420696c9a3e16c758489 = $(`<div id="html_9997fcaf742c420696c9a3e16c758489" style="width: 100.0%; height: 100.0%;"><b>Noe Valley</b><br>Population: 18650<br><br>Race (%):<ul> <li>Asian: 13.0</li><li>Black/African American: 1.0</li><li>White: 78.0</li><li>Native American Indian: 0.4</li><li>Native Hawaiian/Pacific Islander: 0.3</li><li>Other/Two or More Races: 7.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 7</li><li>Italian Restaurant: 7</li><li>Breakfast Spot: 6</li><li>New American Restaurant: 6</li><li>Bakery: 6</li></ol></div>`)[0];
+            popup_219172c669a2471ea91375fbc2fa092f.setContent(html_9997fcaf742c420696c9a3e16c758489);
+        
+
+        marker_7888420a0ab94824b1afa27d5f266421.bindPopup(popup_219172c669a2471ea91375fbc2fa092f)
+        ;
+
+        
+    
+    
+            marker_7888420a0ab94824b1afa27d5f266421.bindTooltip(
+                `<div>
+                     <b>Noe Valley</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39fac35bfe7c49a0b6ef162e8d24bcd3 = L.marker(
+                [37.799090000000035, -122.40844999999996],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_b3f65ddda8a441fb8d3d31bb49dd8f1e = L.popup({"maxWidth": "300px"});
+
+        
+            var html_976b6c3c94a8413bbbe8f1bb462aa172 = $(`<div id="html_976b6c3c94a8413bbbe8f1bb462aa172" style="width: 100.0%; height: 100.0%;"><b>North Beach</b><br>Population: 12600<br><br>Race (%):<ul> <li>Asian: 40.0</li><li>Black/African American: 2.0</li><li>White: 51.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 8.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 12</li><li>Pizza Place: 8</li><li>Chinese Restaurant: 7</li><li>New American Restaurant: 5</li><li>Bakery: 5</li></ol></div>`)[0];
+            popup_b3f65ddda8a441fb8d3d31bb49dd8f1e.setContent(html_976b6c3c94a8413bbbe8f1bb462aa172);
+        
+
+        marker_39fac35bfe7c49a0b6ef162e8d24bcd3.bindPopup(popup_b3f65ddda8a441fb8d3d31bb49dd8f1e)
+        ;
+
+        
+    
+    
+            marker_39fac35bfe7c49a0b6ef162e8d24bcd3.bindTooltip(
+                `<div>
+                     <b>North Beach</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2838bcdfbd24174b26d9416b0a75fc2 = L.marker(
+                [37.71012132655954, -122.46696058724535],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_c9592f66b0c747548753ef8237e66eff = L.popup({"maxWidth": "300px"});
+
+        
+            var html_85770cdcde4c466dae33edd2a9e715c3 = $(`<div id="html_85770cdcde4c466dae33edd2a9e715c3" style="width: 100.0%; height: 100.0%;"><b>Oceanview/Merced/Ingleside</b><br>Population: 28010<br><br>Race (%):<ul> <li>Asian: 54.0</li><li>Black/African American: 12.0</li><li>White: 20.0</li><li>Native American Indian: 0.3</li><li>Native Hawaiian/Pacific Islander: 0.1</li><li>Other/Two or More Races: 13.0</li><li>% Latino (of Any Race): 15.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Chinese Restaurant: 6</li><li>Pizza Place: 5</li><li>Café: 5</li><li>Sandwich Place: 4</li><li>Mexican Restaurant: 3</li></ol></div>`)[0];
+            popup_c9592f66b0c747548753ef8237e66eff.setContent(html_85770cdcde4c466dae33edd2a9e715c3);
+        
+
+        marker_a2838bcdfbd24174b26d9416b0a75fc2.bindPopup(popup_c9592f66b0c747548753ef8237e66eff)
+        ;
+
+        
+    
+    
+            marker_a2838bcdfbd24174b26d9416b0a75fc2.bindTooltip(
+                `<div>
+                     <b>Oceanview/Merced/Ingleside</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3c24c255c634b2a9aacb5f98f222f4d = L.marker(
+                [37.71240000000006, -122.44912999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_77edc8d67747447585bf3bb5e856bb08 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_a0efa510f6d142fd871c0daf3b04a24a = $(`<div id="html_a0efa510f6d142fd871c0daf3b04a24a" style="width: 100.0%; height: 100.0%;"><b>Outer Mission</b><br>Population: 24270<br><br>Race (%):<ul> <li>Asian: 54.0</li><li>Black/African American: 1.0</li><li>White: 24.0</li><li>Native American Indian: 0.3</li><li>Native Hawaiian/Pacific Islander: 0.3</li><li>Other/Two or More Races: 21.0</li><li>% Latino (of Any Race): 29.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Pizza Place: 11</li><li>Café: 10</li><li>Mexican Restaurant: 9</li><li>Chinese Restaurant: 8</li><li>Sandwich Place: 5</li></ol></div>`)[0];
+            popup_77edc8d67747447585bf3bb5e856bb08.setContent(html_a0efa510f6d142fd871c0daf3b04a24a);
+        
+
+        marker_b3c24c255c634b2a9aacb5f98f222f4d.bindPopup(popup_77edc8d67747447585bf3bb5e856bb08)
+        ;
+
+        
+    
+    
+            marker_b3c24c255c634b2a9aacb5f98f222f4d.bindTooltip(
+                `<div>
+                     <b>Outer Mission</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1def57848af34d738098e275e81ba57c = L.marker(
+                [37.77958000000007, -122.50240999999994],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_68b27bd1296b4a0e83a5743dc2d69ccc = L.popup({"maxWidth": "300px"});
+
+        
+            var html_f209d1770ea94910aaa32e4c6f734917 = $(`<div id="html_f209d1770ea94910aaa32e4c6f734917" style="width: 100.0%; height: 100.0%;"><b>Outer Richmond</b><br>Population: 44870<br><br>Race (%):<ul> <li>Asian: 46.0</li><li>Black/African American: 2.0</li><li>White: 44.0</li><li>Native American Indian: 0.1</li><li>Native Hawaiian/Pacific Islander: 0.3</li><li>Other/Two or More Races: 7.0</li><li>% Latino (of Any Race): 7.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Chinese Restaurant: 12</li><li>Café: 10</li><li>American Restaurant: 6</li><li>Seafood Restaurant: 3</li><li>Japanese Restaurant: 3</li></ol></div>`)[0];
+            popup_68b27bd1296b4a0e83a5743dc2d69ccc.setContent(html_f209d1770ea94910aaa32e4c6f734917);
+        
+
+        marker_1def57848af34d738098e275e81ba57c.bindPopup(popup_68b27bd1296b4a0e83a5743dc2d69ccc)
+        ;
+
+        
+    
+    
+            marker_1def57848af34d738098e275e81ba57c.bindTooltip(
+                `<div>
+                     <b>Outer Richmond</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_699c068ea8f64dd985b8dae5ab4833af = L.marker(
+                [37.79291000000006, -122.43463999999994],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_6066b23a034b435a84e46d90f8469517 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_272203017de24c3e8896fde0f5475e74 = $(`<div id="html_272203017de24c3e8896fde0f5475e74" style="width: 100.0%; height: 100.0%;"><b>Pacific Heights</b><br>Population: 24070<br><br>Race (%):<ul> <li>Asian: 18.0</li><li>Black/African American: 3.0</li><li>White: 74.0</li><li>Native American Indian: 0.1</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 5.0</li><li>% Latino (of Any Race): 7.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 10</li><li>American Restaurant: 6</li><li>French Restaurant: 6</li><li>Sushi Restaurant: 5</li><li>Steakhouse: 5</li></ol></div>`)[0];
+            popup_6066b23a034b435a84e46d90f8469517.setContent(html_272203017de24c3e8896fde0f5475e74);
+        
+
+        marker_699c068ea8f64dd985b8dae5ab4833af.bindPopup(popup_6066b23a034b435a84e46d90f8469517)
+        ;
+
+        
+    
+    
+            marker_699c068ea8f64dd985b8dae5ab4833af.bindTooltip(
+                `<div>
+                     <b>Pacific Heights</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3540d365f7e461494534192e402a392 = L.marker(
+                [37.72810000000004, -122.41199999999998],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_5c134c1fcba24ef382f6e32f41b9f2c8 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_c6d1884032c14ee6b55ce958048c8e41 = $(`<div id="html_c6d1884032c14ee6b55ce958048c8e41" style="width: 100.0%; height: 100.0%;"><b>Portola</b><br>Population: 16410<br><br>Race (%):<ul> <li>Asian: 55.0</li><li>Black/African American: 5.0</li><li>White: 22.0</li><li>Native American Indian: 0.4</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 18.0</li><li>% Latino (of Any Race): 26.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Bakery: 10</li><li>Food Truck: 7</li><li>Pizza Place: 6</li><li>Mexican Restaurant: 5</li><li>Chinese Restaurant: 5</li></ol></div>`)[0];
+            popup_5c134c1fcba24ef382f6e32f41b9f2c8.setContent(html_c6d1884032c14ee6b55ce958048c8e41);
+        
+
+        marker_f3540d365f7e461494534192e402a392.bindPopup(popup_5c134c1fcba24ef382f6e32f41b9f2c8)
+        ;
+
+        
+    
+    
+            marker_f3540d365f7e461494534192e402a392.bindTooltip(
+                `<div>
+                     <b>Portola</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e8d5f6f51a14726a5476b1dd0d1ccc1 = L.marker(
+                [37.75660000000005, -122.39913999999999],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_9b011f77f7c7462fa151844a1e7fed1f = L.popup({"maxWidth": "300px"});
+
+        
+            var html_1e67b6cbfeef4c2eafccaadead30ee35 = $(`<div id="html_1e67b6cbfeef4c2eafccaadead30ee35" style="width: 100.0%; height: 100.0%;"><b>Potrero Hill</b><br>Population: 13770<br><br>Race (%):<ul> <li>Asian: 16.0</li><li>Black/African American: 6.0</li><li>White: 64.0</li><li>Native American Indian: 0.2</li><li>Native Hawaiian/Pacific Islander: 0.5</li><li>Other/Two or More Races: 13.0</li><li>% Latino (of Any Race): 14.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 12</li><li>Mexican Restaurant: 11</li><li>Sandwich Place: 6</li><li>Sushi Restaurant: 5</li><li>Deli / Bodega: 4</li></ol></div>`)[0];
+            popup_9b011f77f7c7462fa151844a1e7fed1f.setContent(html_1e67b6cbfeef4c2eafccaadead30ee35);
+        
+
+        marker_1e8d5f6f51a14726a5476b1dd0d1ccc1.bindPopup(popup_9b011f77f7c7462fa151844a1e7fed1f)
+        ;
+
+        
+    
+    
+            marker_1e8d5f6f51a14726a5476b1dd0d1ccc1.bindTooltip(
+                `<div>
+                     <b>Potrero Hill</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5505ef1cac4f4315b70c558f309ca0dc = L.marker(
+                [37.799480000000074, -122.46726999999998],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_5767ec65c4544253b6121f977e5b34db = L.popup({"maxWidth": "300px"});
+
+        
+            var html_698152c2a3fb40b588b1aeefdf582689 = $(`<div id="html_698152c2a3fb40b588b1aeefdf582689" style="width: 100.0%; height: 100.0%;"><b>Presidio</b><br>Population: 3830<br><br>Race (%):<ul> <li>Asian: 6.0</li><li>Black/African American: 0.3</li><li>White: 88.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 6.0</li><li>% Latino (of Any Race): 9.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Food Truck: 17</li><li>Café: 9</li><li>American Restaurant: 2</li><li>Mexican Restaurant: 1</li><li>Fried Chicken Joint: 1</li></ol></div>`)[0];
+            popup_5767ec65c4544253b6121f977e5b34db.setContent(html_698152c2a3fb40b588b1aeefdf582689);
+        
+
+        marker_5505ef1cac4f4315b70c558f309ca0dc.bindPopup(popup_5767ec65c4544253b6121f977e5b34db)
+        ;
+
+        
+    
+    
+            marker_5505ef1cac4f4315b70c558f309ca0dc.bindTooltip(
+                `<div>
+                     <b>Presidio</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9586611df804184ab8d0900e0bca7b3 = L.marker(
+                [37.79028000000005, -122.45165999999995],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_91a25b08222e477ab5bad8a0f9e01ef2 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_39335c50a1cf4f9590d7933e98fc03b9 = $(`<div id="html_39335c50a1cf4f9590d7933e98fc03b9" style="width: 100.0%; height: 100.0%;"><b>Presidio Heights</b><br>Population: 10720<br><br>Race (%):<ul> <li>Asian: 21.0</li><li>Black/African American: 2.0</li><li>White: 69.0</li><li>Native American Indian: 0.01</li><li>Native Hawaiian/Pacific Islander: 1.0</li><li>Other/Two or More Races: 7.0</li><li>% Latino (of Any Race): 6.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 10</li><li>American Restaurant: 8</li><li>Sandwich Place: 7</li><li>Café: 6</li><li>Thai Restaurant: 5</li></ol></div>`)[0];
+            popup_91a25b08222e477ab5bad8a0f9e01ef2.setContent(html_39335c50a1cf4f9590d7933e98fc03b9);
+        
+
+        marker_f9586611df804184ab8d0900e0bca7b3.bindPopup(popup_91a25b08222e477ab5bad8a0f9e01ef2)
+        ;
+
+        
+    
+    
+            marker_f9586611df804184ab8d0900e0bca7b3.bindTooltip(
+                `<div>
+                     <b>Presidio Heights</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11ad4a45589743bc8d95ae167e1b852f = L.marker(
+                [37.80203000000006, -122.41962999999998],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_b7ae565490c14392aef7d09e0bbb9b23 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_dd10c9e149c74a1ba830b8f2a8041bbe = $(`<div id="html_dd10c9e149c74a1ba830b8f2a8041bbe" style="width: 100.0%; height: 100.0%;"><b>Russian Hill</b><br>Population: 17830<br><br>Race (%):<ul> <li>Asian: 28.0</li><li>Black/African American: 1.0</li><li>White: 67.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 0.1</li><li>Other/Two or More Races: 5.0</li><li>% Latino (of Any Race): 6.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Italian Restaurant: 13</li><li>Pizza Place: 9</li><li>Seafood Restaurant: 8</li><li>Café: 6</li><li>Diner: 5</li></ol></div>`)[0];
+            popup_b7ae565490c14392aef7d09e0bbb9b23.setContent(html_dd10c9e149c74a1ba830b8f2a8041bbe);
+        
+
+        marker_11ad4a45589743bc8d95ae167e1b852f.bindPopup(popup_b7ae565490c14392aef7d09e0bbb9b23)
+        ;
+
+        
+    
+    
+            marker_11ad4a45589743bc8d95ae167e1b852f.bindTooltip(
+                `<div>
+                     <b>Russian Hill</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c7258722d6f43d898b6114c99c52a2c = L.marker(
+                [37.78854000000007, -122.48691999999994],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_9ef2a9dc44424895a8a3e182df27db09 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_8251e507e9fc4f60a1668c05f893cdc2 = $(`<div id="html_8251e507e9fc4f60a1668c05f893cdc2" style="width: 100.0%; height: 100.0%;"><b>Seacliff</b><br>Population: 2460<br><br>Race (%):<ul> <li>Asian: 17.0</li><li>Black/African American: 1.0</li><li>White: 76.0</li><li>Native American Indian: 0.0</li><li>Native Hawaiian/Pacific Islander: 0.0</li><li>Other/Two or More Races: 6.0</li><li>% Latino (of Any Race): 5.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 8</li><li>Chinese Restaurant: 7</li><li>Sushi Restaurant: 5</li><li>Pizza Place: 4</li><li>Bakery: 3</li></ol></div>`)[0];
+            popup_9ef2a9dc44424895a8a3e182df27db09.setContent(html_8251e507e9fc4f60a1668c05f893cdc2);
+        
+
+        marker_1c7258722d6f43d898b6114c99c52a2c.bindPopup(popup_9ef2a9dc44424895a8a3e182df27db09)
+        ;
+
+        
+    
+    
+            marker_1c7258722d6f43d898b6114c99c52a2c.bindTooltip(
+                `<div>
+                     <b>Seacliff</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_890e834614b4429585cc0a6ba523f17e = L.marker(
+                [37.777570000000026, -122.40434999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_0048f84b97b14dceb33e338a5ecac8dd = L.popup({"maxWidth": "300px"});
+
+        
+            var html_de5997bdc3214cd18984ee151c068623 = $(`<div id="html_de5997bdc3214cd18984ee151c068623" style="width: 100.0%; height: 100.0%;"><b>South of Market</b><br>Population: 19180<br><br>Race (%):<ul> <li>Asian: 39.0</li><li>Black/African American: 11.0</li><li>White: 38.0</li><li>Native American Indian: 0.1</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 11.0</li><li>% Latino (of Any Race): 12.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 9</li><li>Pizza Place: 9</li><li>Vietnamese Restaurant: 6</li><li>Thai Restaurant: 5</li><li>New American Restaurant: 4</li></ol></div>`)[0];
+            popup_0048f84b97b14dceb33e338a5ecac8dd.setContent(html_de5997bdc3214cd18984ee151c068623);
+        
+
+        marker_890e834614b4429585cc0a6ba523f17e.bindPopup(popup_0048f84b97b14dceb33e338a5ecac8dd)
+        ;
+
+        
+    
+    
+            marker_890e834614b4429585cc0a6ba523f17e.bindTooltip(
+                `<div>
+                     <b>South of Market</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a173d1a925243daababd13706cf21ce = L.marker(
+                [37.75157712304747, -122.49503266563899],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_52b4213efc644286a34a575908968d11 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_00be045b82e944e9bf501bc9083301d8 = $(`<div id="html_00be045b82e944e9bf501bc9083301d8" style="width: 100.0%; height: 100.0%;"><b>Sunset/Parkside</b><br>Population: 81050<br><br>Race (%):<ul> <li>Asian: 57.0</li><li>Black/African American: 1.0</li><li>White: 35.0</li><li>Native American Indian: 0.1</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 7.0</li><li>% Latino (of Any Race): 6.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Chinese Restaurant: 24</li><li>Korean Restaurant: 6</li><li>Café: 6</li><li>Pizza Place: 5</li><li>Japanese Restaurant: 5</li></ol></div>`)[0];
+            popup_52b4213efc644286a34a575908968d11.setContent(html_00be045b82e944e9bf501bc9083301d8);
+        
+
+        marker_3a173d1a925243daababd13706cf21ce.bindPopup(popup_52b4213efc644286a34a575908968d11)
+        ;
+
+        
+    
+    
+            marker_3a173d1a925243daababd13706cf21ce.bindTooltip(
+                `<div>
+                     <b>Sunset/Parkside</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e57cbcf075242dcb3c8468e28c51bf1 = L.marker(
+                [37.78513000000004, -122.41450999999995],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_1cb47634babb4baf9bf8e612d4b4a1cd = L.popup({"maxWidth": "300px"});
+
+        
+            var html_529f92f514e0441f97ce33047ce5cb3e = $(`<div id="html_529f92f514e0441f97ce33047ce5cb3e" style="width: 100.0%; height: 100.0%;"><b>Tenderloin</b><br>Population: 28220<br><br>Race (%):<ul> <li>Asian: 31.0</li><li>Black/African American: 10.0</li><li>White: 43.0</li><li>Native American Indian: 1.0</li><li>Native Hawaiian/Pacific Islander: 0.4</li><li>Other/Two or More Races: 15.0</li><li>% Latino (of Any Race): 23.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Vietnamese Restaurant: 10</li><li>Thai Restaurant: 7</li><li>Sushi Restaurant: 6</li><li>Sandwich Place: 5</li><li>Café: 5</li></ol></div>`)[0];
+            popup_1cb47634babb4baf9bf8e612d4b4a1cd.setContent(html_529f92f514e0441f97ce33047ce5cb3e);
+        
+
+        marker_6e57cbcf075242dcb3c8468e28c51bf1.bindPopup(popup_1cb47634babb4baf9bf8e612d4b4a1cd)
+        ;
+
+        
+    
+    
+            marker_6e57cbcf075242dcb3c8468e28c51bf1.bindTooltip(
+                `<div>
+                     <b>Tenderloin</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69a840acc87e4cd4bde9b0777e97825b = L.marker(
+                [37.82489000000004, -122.37086999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_18c1b3e3e06d4ce09df1298dcdeef870 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_4d539322c2b74c5ca2802c1ece5575c6 = $(`<div id="html_4d539322c2b74c5ca2802c1ece5575c6" style="width: 100.0%; height: 100.0%;"><b>Treasure Island</b><br>Population: 3090<br><br>Race (%):<ul> <li>Asian: 15.0</li><li>Black/African American: 20.0</li><li>White: 34.0</li><li>Native American Indian: 2.0</li><li>Native Hawaiian/Pacific Islander: 2.0</li><li>Other/Two or More Races: 27.0</li><li>% Latino (of Any Race): 32.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Food Truck: 9</li><li>Donut Shop: 1</li><li>American Restaurant: 1</li><li>Fried Chicken Joint: 1</li><li>Breakfast Spot: 1</li></ol></div>`)[0];
+            popup_18c1b3e3e06d4ce09df1298dcdeef870.setContent(html_4d539322c2b74c5ca2802c1ece5575c6);
+        
+
+        marker_69a840acc87e4cd4bde9b0777e97825b.bindPopup(popup_18c1b3e3e06d4ce09df1298dcdeef870)
+        ;
+
+        
+    
+    
+            marker_69a840acc87e4cd4bde9b0777e97825b.bindTooltip(
+                `<div>
+                     <b>Treasure Island</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0edcb5eec1742dca8e0147ac2326b86 = L.marker(
+                [37.75669000000005, -122.44223999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_b0399d6ea8b840a59baccfe64d5f514a = L.popup({"maxWidth": "300px"});
+
+        
+            var html_dece7d975e8841be9f799e8adccd034d = $(`<div id="html_dece7d975e8841be9f799e8adccd034d" style="width: 100.0%; height: 100.0%;"><b>Twin Peaks</b><br>Population: 7410<br><br>Race (%):<ul> <li>Asian: 19.0</li><li>Black/African American: 4.0</li><li>White: 64.0</li><li>Native American Indian: 0.2</li><li>Native Hawaiian/Pacific Islander: 0.3</li><li>Other/Two or More Races: 13.0</li><li>% Latino (of Any Race): 16.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Café: 8</li><li>Breakfast Spot: 6</li><li>Thai Restaurant: 6</li><li>Sushi Restaurant: 6</li><li>Mexican Restaurant: 5</li></ol></div>`)[0];
+            popup_b0399d6ea8b840a59baccfe64d5f514a.setContent(html_dece7d975e8841be9f799e8adccd034d);
+        
+
+        marker_d0edcb5eec1742dca8e0147ac2326b86.bindPopup(popup_b0399d6ea8b840a59baccfe64d5f514a)
+        ;
+
+        
+    
+    
+            marker_d0edcb5eec1742dca8e0147ac2326b86.bindTooltip(
+                `<div>
+                     <b>Twin Peaks</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58fc49c717024686bee222b8af915a37 = L.marker(
+                [37.71307000000007, -122.40930999999995],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_0bc245af8ecc40c3bf9122ac6080d7be = L.popup({"maxWidth": "300px"});
+
+        
+            var html_acbc13f71ca94ade8ae23559a3a071fd = $(`<div id="html_acbc13f71ca94ade8ae23559a3a071fd" style="width: 100.0%; height: 100.0%;"><b>Visitacion Valley</b><br>Population: 18570<br><br>Race (%):<ul> <li>Asian: 55.0</li><li>Black/African American: 11.0</li><li>White: 12.0</li><li>Native American Indian: 0.4</li><li>Native Hawaiian/Pacific Islander: 2.0</li><li>Other/Two or More Races: 20.0</li><li>% Latino (of Any Race): 25.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Chinese Restaurant: 3</li><li>Café: 3</li><li>Sandwich Place: 2</li><li>Fast Food Restaurant: 2</li><li>Asian Restaurant: 2</li></ol></div>`)[0];
+            popup_0bc245af8ecc40c3bf9122ac6080d7be.setContent(html_acbc13f71ca94ade8ae23559a3a071fd);
+        
+
+        marker_58fc49c717024686bee222b8af915a37.bindPopup(popup_0bc245af8ecc40c3bf9122ac6080d7be)
+        ;
+
+        
+    
+    
+            marker_58fc49c717024686bee222b8af915a37.bindTooltip(
+                `<div>
+                     <b>Visitacion Valley</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15f5ac230f224155a576cd855fe57de6 = L.marker(
+                [37.75017843787799, -122.44767208025588],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_cad77b929779494f950a3eb7c07f1405 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_874f5dc95d324868b6e302704dd0a38d = $(`<div id="html_874f5dc95d324868b6e302704dd0a38d" style="width: 100.0%; height: 100.0%;"><b>West of Twin Peaks</b><br>Population: 38180<br><br>Race (%):<ul> <li>Asian: 34.0</li><li>Black/African American: 3.0</li><li>White: 54.0</li><li>Native American Indian: 0.2</li><li>Native Hawaiian/Pacific Islander: 0.3</li><li>Other/Two or More Races: 9.0</li><li>% Latino (of Any Race): 10.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Bakery: 4</li><li>Sandwich Place: 4</li><li>Sushi Restaurant: 3</li><li>Café: 3</li><li>American Restaurant: 3</li></ol></div>`)[0];
+            popup_cad77b929779494f950a3eb7c07f1405.setContent(html_874f5dc95d324868b6e302704dd0a38d);
+        
+
+        marker_15f5ac230f224155a576cd855fe57de6.bindPopup(popup_cad77b929779494f950a3eb7c07f1405)
+        ;
+
+        
+    
+    
+            marker_15f5ac230f224155a576cd855fe57de6.bindTooltip(
+                `<div>
+                     <b>West of Twin Peaks</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29bfb938d9be4aab958421744e7db59d = L.marker(
+                [37.780950000000075, -122.43221999999997],
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+        var popup_257af30d489d4594b9abf532525ff970 = L.popup({"maxWidth": "300px"});
+
+        
+            var html_394dd763c8234fa28e5324eb944c30cc = $(`<div id="html_394dd763c8234fa28e5324eb944c30cc" style="width: 100.0%; height: 100.0%;"><b>Western Addition</b><br>Population: 22220<br><br>Race (%):<ul> <li>Asian: 27.0</li><li>Black/African American: 21.0</li><li>White: 43.0</li><li>Native American Indian: 1.0</li><li>Native Hawaiian/Pacific Islander: 0.2</li><li>Other/Two or More Races: 8.0</li><li>% Latino (of Any Race): 8.0</li></ul><p style="width:200px"><i>Most common restaurant:</i></p><ol><li>Sushi Restaurant: 10</li><li>Pizza Place: 6</li><li>Bakery: 6</li><li>Mexican Restaurant: 5</li><li>Ramen Restaurant: 4</li></ol></div>`)[0];
+            popup_257af30d489d4594b9abf532525ff970.setContent(html_394dd763c8234fa28e5324eb944c30cc);
+        
+
+        marker_29bfb938d9be4aab958421744e7db59d.bindPopup(popup_257af30d489d4594b9abf532525ff970)
+        ;
+
+        
+    
+    
+            marker_29bfb938d9be4aab958421744e7db59d.bindTooltip(
+                `<div>
+                     <b>Western Addition</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_6bf2880828174854a0d4c5bdaf4b1de6 = L.featureGroup(
+                {}
+            ).addTo(map_92922a45cb35405dbfdb9ed5ad833786);
+        
+    
+            var circle_marker_6cbf3a075dae4990ac22888119104a51 = L.circleMarker(
+                [37.73431000000005, -122.37942999999996],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_f072e0ac69c04af9961ba6da71bd4eb9 = L.circleMarker(
+                [37.73903000000007, -122.41620999999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_745b78d2666a4645b4fa3acfffdd7833 = L.circleMarker(
+                [37.76122000000004, -122.44410999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_d9d32e9344104ddf8f2813b4231d90e2 = L.circleMarker(
+                [37.795390000000054, -122.40811999999994],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_b4961e7a3e7145839977bb6f60607bfe = L.circleMarker(
+                [37.72104000000007, -122.43159999999995],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_8b873e056f454086b986b2d6e98481b4 = L.circleMarker(
+                [37.795780000000036, -122.40047999999996],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_2280396854ec4cc2ab60582f293f92ab = L.circleMarker(
+                [37.738410000000044, -122.43098999999995],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_c497601ab6564e23a5350cacfb81a605 = L.circleMarker(
+                [37.77144000000004, -122.45414],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_099a491c20464cf3a97c31e0ed7c21c4 = L.circleMarker(
+                [37.769930000000045, -122.44691999999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_a528d6f9ad834801b0934a7958d2ca57 = L.circleMarker(
+                [37.77428000000003, -122.42832999999996],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_52eb216501cd4a0e85ebe1f730439abf = L.circleMarker(
+                [37.78090000000003, -122.46555999999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_416b09fe312f4013aadb21e75fd80e78 = L.circleMarker(
+                [37.762110000000064, -122.46885999999995],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_51cc6a11a473489685001987757f8e12 = L.circleMarker(
+                [37.785420000000045, -122.42971999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_982f9a1146994275869f57bb47b1c92e = L.circleMarker(
+                [37.729850000000056, -122.49416999999994],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_adefd7c629bf452dac57b987b284bda1 = L.circleMarker(
+                [37.78159000000005, -122.49440999999996],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_e75aaeb5ca4542708c599f61b56621d1 = L.circleMarker(
+                [37.77791000000008, -122.45261999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_5ed8cd1e1f3040e9852cdc21d4709123 = L.circleMarker(
+                [37.80337000000003, -122.43692999999996],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_9cc9ae6fa49d40169e477319430647c9 = L.circleMarker(
+                [37.78626956913233, -122.48924763662629],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_956490226ab74b4db2f6ce3d4b183454 = L.circleMarker(
+                [37.763540000000035, -122.41757999999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_874475ffda614912aa0596b5001a8325 = L.circleMarker(
+                [37.76690000000008, -122.38978999999995],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_4110891d982a4ef5a1e736f6d126d39f = L.circleMarker(
+                [37.793360000000064, -122.41787],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_ebbafe6b6e08481f9756d8fc197f36bd = L.circleMarker(
+                [37.75160000000005, -122.42907999999994],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_c7eb03c206114a93aab042ea5691d646 = L.circleMarker(
+                [37.799090000000035, -122.40844999999996],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_4822e1bf7cc74e6d850f272718bb2f45 = L.circleMarker(
+                [37.71012132655954, -122.46696058724535],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_33518237447e404dab98f2e5d6ad6ff6 = L.circleMarker(
+                [37.71240000000006, -122.44912999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_737938d693c74abfb8830335f56de450 = L.circleMarker(
+                [37.77958000000007, -122.50240999999994],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_2c6fa4af636b4ce890d610116af3c878 = L.circleMarker(
+                [37.79291000000006, -122.43463999999994],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_37b442cdb4f8450c97a4999d5f625e6f = L.circleMarker(
+                [37.72810000000004, -122.41199999999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_790311108dae4e2bb51e0217c829f345 = L.circleMarker(
+                [37.75660000000005, -122.39913999999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_84463554c3444249920e900157d33f9e = L.circleMarker(
+                [37.799480000000074, -122.46726999999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_2675c3ae735d49c3a4bc2be7ce101701 = L.circleMarker(
+                [37.79028000000005, -122.45165999999995],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_372ff183ada540db8019d5a7de7a1180 = L.circleMarker(
+                [37.80203000000006, -122.41962999999998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_8bf1706e426047278a0a281ad2b8aaf2 = L.circleMarker(
+                [37.78854000000007, -122.48691999999994],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_67df630c59d84ba981c2ace6d98c2db7 = L.circleMarker(
+                [37.777570000000026, -122.40434999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_2bc8a35da63d4237a855091a641e2ba8 = L.circleMarker(
+                [37.75157712304747, -122.49503266563899],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_f5c74d2ed53d4c6991f2ec9507f9e4cc = L.circleMarker(
+                [37.78513000000004, -122.41450999999995],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_f88de2f8f16645619ab3af0139d37986 = L.circleMarker(
+                [37.82489000000004, -122.37086999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_2f4eadc913644ad69aa787f8995748b5 = L.circleMarker(
+                [37.75669000000005, -122.44223999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_417ecfc3c55d45be9e97f81409dea518 = L.circleMarker(
+                [37.71307000000007, -122.40930999999995],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_a12c1b40b9b440a0891c5d436b451012 = L.circleMarker(
+                [37.75017843787799, -122.44767208025588],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+    
+            var circle_marker_d063d3f83df2479eb6a80827a49d5f2a = L.circleMarker(
+                [37.780950000000075, -122.43221999999997],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_6bf2880828174854a0d4c5bdaf4b1de6);
+        
+</script>
